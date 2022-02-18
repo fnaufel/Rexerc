@@ -6,7 +6,7 @@
 \usage{
 lacuna(
   answer,
-  width = min(100, max(nchar(answer))),
+  width = min(40, max(nchar(answer))),
   num = NULL,
   ignore_case = FALSE,
   tol = NULL,
