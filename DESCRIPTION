@@ -1,9 +1,9 @@
 Package: Rexerc
-Title: Adaptação de webexercises para HTML e PDF, em português
+Title: Generate exercises in html and pdf
 Version: 0.0.0.9000
 Authors@R: 
     person("Fernando", "Naufel", , "fnaufel@gmail.com", role = c("aut", "cre"))
-Description: Adaptação de webexercises para HTML e PDF, em português.
+Description: Generate exercises in html and pdf.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
