@@ -6,8 +6,7 @@
     Output
       Antes da dica.
       
-       
-      <div class="webex-solution" style="overflow-x: hidden;"><button>Dica</button>
+       <div class="webex-solution" style="overflow-x: hidden;"><button>Dica</button>
        Este é o texto da dica.
       
       ```{r}
@@ -16,8 +15,7 @@
       
       Fim da dica.
       
-       
-      </div>
+       </div>
        Depois da dica.
 
 # dica: latex

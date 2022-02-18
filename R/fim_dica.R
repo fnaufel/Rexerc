@@ -7,7 +7,6 @@
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output
-#' @importFrom webexercises unhide
 #'
 fim_dica <- function(
   output = NULL
@@ -26,7 +25,7 @@ fim_dica <- function(
 
   if (output == 'html') {
 
-    webexercises::unhide()
+    '</div>\n'
 
   } else if (output == 'latex') {
 

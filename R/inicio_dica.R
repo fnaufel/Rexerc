@@ -28,7 +28,7 @@ inicio_dica <- function(
   if (output == 'html') {
 
     paste0(
-      '\n<div class="webex-solution" style="overflow-x: hidden;"><button>',
+      '<div class="webex-solution" style="overflow-x: hidden;"><button>',
       texto_botao,
       '</button>\n'
     )
