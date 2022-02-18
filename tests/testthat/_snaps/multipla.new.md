@@ -3,7 +3,7 @@
     Code
       cat(multipla(opts, output = "html"))
     Output
-      <div class='webex-radiogroup' id='radio_RBRAPFFBHI'><label><input type="radio" autocomplete="off" name="radio_RBRAPFFBHI" value=""></input> <span>A primeira</span></label><label><input type="radio" autocomplete="off" name="radio_RBRAPFFBHI" value=""></input> <span>A segunda</span></label><label><input type="radio" autocomplete="off" name="radio_RBRAPFFBHI" value="answer"></input> <span>A terceira</span></label><label><input type="radio" autocomplete="off" name="radio_RBRAPFFBHI" value=""></input> <span>A quarta</span></label><label><input type="radio" autocomplete="off" name="radio_RBRAPFFBHI" value="answer"></input> <span>A quinta</span></label></div>
+      <div class='webex-radiogroup' id='radio_BRJRKXGKGU'><label><input type="radio" autocomplete="off" name="radio_BRJRKXGKGU" value=""></input> <span>A primeira</span></label><label><input type="radio" autocomplete="off" name="radio_BRJRKXGKGU" value=""></input> <span>A segunda</span></label><label><input type="radio" autocomplete="off" name="radio_BRJRKXGKGU" value="answer"></input> <span>A terceira</span></label><label><input type="radio" autocomplete="off" name="radio_BRJRKXGKGU" value=""></input> <span>A quarta</span></label><label><input type="radio" autocomplete="off" name="radio_BRJRKXGKGU" value="answer"></input> <span>A quinta</span></label></div>
 
 # lacuna: latex
 
