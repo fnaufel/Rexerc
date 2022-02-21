@@ -2,7 +2,7 @@
 % Please edit documentation in R/lacuna.R
 \name{lacuna}
 \alias{lacuna}
-\title{lacuna: gera caixa para aluno preencher com resposta}
+\title{lacuna}
 \usage{
 lacuna(
   answer,
@@ -30,13 +30,11 @@ lacuna(
 
 \item{regex}{see \link[webexercises:fitb]{webexercises::fitb}}
 
-\item{output}{'html' ou 'latex'. Se não fornecido, o formato de saída é
-detectado automaticamente}
+\item{output}{'html' or 'latex'. If not given, detect automatically.}
 }
 \value{
-código HTML ou LaTeX
+HTML or LaTeX code
 }
 \description{
-Gera HTML através de \link[webexercises:fitb]{webexercises::fitb} ou LaTeX, segundo o formato do
-documento sendo gerado.
+Generate fill-in-the-blanks exercise
 }

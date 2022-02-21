@@ -1,10 +1,11 @@
 #' inicio_dica
 #'
-#' @param texto_botao Texto do botão
-#' @param output 'html' ou 'latex'. Se não fornecido, o formato de saída é
-#'               detectado automaticamente
+#' Begin a hint block
 #'
-#' @return código HTML ou LaTeX
+#' @param texto_botao Button text
+#' @param output 'html' or 'latex'. If not given, detect automatically.
+#'
+#' @return HTML or LaTeX code
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output

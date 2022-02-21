@@ -1,15 +1,18 @@
 #' fim_resposta
 #'
-#' @param output 'html' ou 'latex'. Se não fornecido, o formato de saída é
-#'               detectado automaticamente
+#' End answer block
 #'
-#' @return código HTML ou LaTeX
+#' @param output 'html' or 'latex'. If not given, detect automatically.
+#' @param metadata yaml metadata for document
+#'
+#' @return HTML or LaTeX code
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output
 #'
 fim_resposta <- function(
-  output = NULL
+  output = NULL,
+  metadata = rmarkdown::metadata
 ) {
 
   if (is.null(output))
@@ -29,7 +32,7 @@ fim_resposta <- function(
 
   } else if (output == 'latex') {
 
-    url <- rmarkdown::metadata$url
+    url <- metadata$url
 
     if (!is.null(url)) {
 

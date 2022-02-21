@@ -1,9 +1,9 @@
-# multipla: html: *** WILL FAIL: RANDOM ID ***
+# multipla: html
 
     Code
       cat(multipla(opts, output = "html"))
     Output
-      <div class='webex-radiogroup' id='radio_RGNJYCBGXV'><label><input type="radio" autocomplete="off" name="radio_RGNJYCBGXV" value=""></input> <span>A primeira</span></label><label><input type="radio" autocomplete="off" name="radio_RGNJYCBGXV" value=""></input> <span>A segunda</span></label><label><input type="radio" autocomplete="off" name="radio_RGNJYCBGXV" value="answer"></input> <span>A terceira</span></label><label><input type="radio" autocomplete="off" name="radio_RGNJYCBGXV" value=""></input> <span>A quarta</span></label><label><input type="radio" autocomplete="off" name="radio_RGNJYCBGXV" value="answer"></input> <span>A quinta</span></label></div>
+      <div class='webex-radiogroup' id='radio_OSNCJRVKET'><label><input type="radio" autocomplete="off" name="radio_OSNCJRVKET" value=""></input> <span>A primeira</span></label><label><input type="radio" autocomplete="off" name="radio_OSNCJRVKET" value=""></input> <span>A segunda</span></label><label><input type="radio" autocomplete="off" name="radio_OSNCJRVKET" value="answer"></input> <span>A terceira</span></label><label><input type="radio" autocomplete="off" name="radio_OSNCJRVKET" value=""></input> <span>A quarta</span></label><label><input type="radio" autocomplete="off" name="radio_OSNCJRVKET" value="answer"></input> <span>A quinta</span></label></div>
 
 # lacuna: latex
 

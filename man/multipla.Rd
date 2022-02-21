@@ -2,19 +2,18 @@
 % Please edit documentation in R/multipla.R
 \name{multipla}
 \alias{multipla}
-\title{Múltipla escolha}
+\title{multipla}
 \usage{
 multipla(opts, output = NULL)
 }
 \arguments{
-\item{opts}{Opções see \link[webexercises:longmcq]{webexercises::longmcq}}
+\item{opts}{Choices see \link[webexercises:longmcq]{webexercises::longmcq}}
 
-\item{output}{'html' ou 'latex'. Se não fornecido, o formato de saída é
-detectado automaticamente}
+\item{output}{'html' or 'latex'. If not given, detect automatically.}
 }
 \value{
-código HTML ou LaTeX
+HTML or LaTeX code
 }
 \description{
-Múltipla escolha
+Generate multiple choice question (long)
 }

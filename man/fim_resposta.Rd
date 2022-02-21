@@ -4,15 +4,16 @@
 \alias{fim_resposta}
 \title{fim_resposta}
 \usage{
-fim_resposta(output = NULL)
+fim_resposta(output = NULL, metadata = rmarkdown::metadata)
 }
 \arguments{
-\item{output}{'html' ou 'latex'. Se não fornecido, o formato de saída é
-detectado automaticamente}
+\item{output}{'html' or 'latex'. If not given, detect automatically.}
+
+\item{metadata}{yaml metadata for document}
 }
 \value{
-código HTML ou LaTeX
+HTML or LaTeX code
 }
 \description{
-fim_resposta
+End answer block
 }

@@ -1,9 +1,10 @@
 #' fim_dica
 #'
-#' @param output 'html' ou 'latex'. Se não fornecido, o formato de saída é
-#'               detectado automaticamente
+#' End hint block
 #'
-#' @return código HTML ou LaTeX
+#' @param output 'html' or 'latex'. If not given, detect automatically.
+#'
+#' @return HTML or LaTeX code
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output

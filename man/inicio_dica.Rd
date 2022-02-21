@@ -7,14 +7,13 @@
 inicio_dica(texto_botao = "Dica", output = NULL)
 }
 \arguments{
-\item{texto_botao}{Texto do botão}
+\item{texto_botao}{Button text}
 
-\item{output}{'html' ou 'latex'. Se não fornecido, o formato de saída é
-detectado automaticamente}
+\item{output}{'html' or 'latex'. If not given, detect automatically.}
 }
 \value{
-código HTML ou LaTeX
+HTML or LaTeX code
 }
 \description{
-inicio_dica
+Begin a hint block
 }

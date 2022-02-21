@@ -4,20 +4,22 @@
 \alias{inicio_resposta}
 \title{inicio_resposta}
 \usage{
-inicio_resposta(texto_botao = "Resposta", ancora = NULL, output = NULL)
+inicio_resposta(
+  texto_botao = "Resposta",
+  output = NULL,
+  metadata = rmarkdown::metadata
+)
 }
 \arguments{
-\item{texto_botao}{Texto do botão}
+\item{texto_botao}{Button text}
 
-\item{ancora}{Id da âncora HTML com a solução; USADO APENAS PARA SAÍDA PDF,
-para gerar link para solução no site}
+\item{output}{'html' or 'latex'. If not given, detect automatically.}
 
-\item{output}{'html' ou 'latex'. Se não fornecido, o formato de saída é
-detectado automaticamente}
+\item{metadata}{yaml metadata for document}
 }
 \value{
-código HTML ou LaTeX
+HTML or LaTeX code
 }
 \description{
-inicio_resposta
+Begin answer block
 }

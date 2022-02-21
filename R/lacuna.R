@@ -1,7 +1,6 @@
-#' lacuna: gera caixa para aluno preencher com resposta
+#' lacuna
 #'
-#' Gera HTML através de [webexercises::fitb] ou LaTeX, segundo o formato do
-#' documento sendo gerado.
+#' Generate fill-in-the-blanks exercise
 #'
 #' @param answer see [webexercises::fitb]
 #' @param width see [webexercises::fitb]
@@ -10,10 +9,9 @@
 #' @param tol see [webexercises::fitb]
 #' @param ignore_ws see [webexercises::fitb]
 #' @param regex see [webexercises::fitb]
-#' @param output 'html' ou 'latex'. Se não fornecido, o formato de saída é
-#'               detectado automaticamente
+#' @param output 'html' or 'latex'. If not given, detect automatically.
 #'
-#' @return código HTML ou LaTeX
+#' @return HTML or LaTeX code
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output

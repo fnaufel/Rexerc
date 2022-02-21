@@ -1,10 +1,11 @@
-#' Múltipla escolha
+#' multipla
 #'
-#' @param opts Opções see [webexercises::longmcq]
-#' @param output 'html' ou 'latex'. Se não fornecido, o formato de saída é
-#'               detectado automaticamente
+#' Generate multiple choice question (long)
 #'
-#' @return código HTML ou LaTeX
+#' @param opts Choices see [webexercises::longmcq]
+#' @param output 'html' or 'latex'. If not given, detect automatically.
+#'
+#' @return HTML or LaTeX code
 #' @export
 #'
 #' @importFrom knitr is_html_output is_latex_output
