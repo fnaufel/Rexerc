@@ -37,9 +37,10 @@ fim_resposta <- function(
     if (!is.null(url)) {
 
       paste0(
-        '\n\\end{comment}\n',
-        '\\vspace{-1.5ex} \\hrulefill \\vspace{1ex} \n\n'
+        '\n\\end{comment}',
+        '\n\\end{trivlist}'
       )
+
 
     } else {
 

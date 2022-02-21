@@ -54,3 +54,32 @@ test_that("resposta: latex", {
 
 })
 
+
+test_that("resposta: latex sem url", {
+
+  texto_antes <- 'Antes da resposta.\n\n'
+
+  texto <- paste0(
+    'Este é o texto da resposta.\n\n',
+    '```{r}\n',
+    'ls()\n',
+    '```\n\n',
+    'Fim da resposta.\n\n'
+  )
+
+  texto_depois <- 'Depois da resposta.\n'
+
+  metadata <- list()
+
+  expect_snapshot(
+    cat(
+      texto_antes,
+      inicio_resposta('Resposta', output = 'latex', metadata = metadata),
+      texto,
+      fim_resposta(output = 'latex', metadata = metadata),
+      texto_depois
+    )
+  )
+
+})
+

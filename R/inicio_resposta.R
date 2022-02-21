@@ -42,12 +42,16 @@ inicio_resposta <- function(
 
     if (!is.null(url)) {
 
-      inicio <- paste0(texto_botao, '\\ \\ \\hrulefill \n')
-      paste0('\n', inicio, '\n', url, '\n', '\\begin{comment}\n')
+      paste0(
+        '\n\\begin{trivlist} \\raggedleft\n',
+        '\\item[\\bfseries ', texto_botao, ':] ',
+        '\\url{', url, '}',
+        '\n\\begin{comment}\n'
+      )
 
     } else {
 
-      '\n\\begin{comment}'
+      '\n\\begin{comment}\n'
 
     }
 
