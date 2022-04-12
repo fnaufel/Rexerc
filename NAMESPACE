@@ -2,6 +2,7 @@
 
 export(fim_dica)
 export(fim_resposta)
+export(iniciar)
 export(inicio_dica)
 export(inicio_resposta)
 export(lacuna)
