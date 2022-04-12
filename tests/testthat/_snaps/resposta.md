@@ -27,9 +27,9 @@
       Antes da resposta.
       
        
-      \begin{trivlist} \raggedleft
-      \item[\bfseries Resposta:] \url{https://github.com/fnaufel/exercises}
-      \begin{comment}
+              \begin{trivlist} \raggedleft
+              \item[\bfseries Resposta:] \url{https://github.com/fnaufel/exercises}
+              \begin{comment}
        Este é o texto da resposta.
       
       ```{r}
@@ -39,8 +39,8 @@
       Fim da resposta.
       
        
-      \end{comment}
-      \end{trivlist} Depois da resposta.
+              \end{comment}
+              \end{trivlist} Depois da resposta.
 
 # resposta: latex sem url
 
@@ -51,7 +51,7 @@
       Antes da resposta.
       
        
-      \begin{comment}
+              \begin{comment}
        Este é o texto da resposta.
       
       ```{r}
@@ -61,6 +61,6 @@
       Fim da resposta.
       
        
-      \end{comment}
+              \end{comment}
        Depois da resposta.
 

@@ -26,7 +26,8 @@
     Output
       Antes da dica.
       
-       Dica\ \ \hrulefill 
+       
+              Dica\ \ \hrulefill 
        Este é o texto da dica.
       
       ```{r}
@@ -35,7 +36,8 @@
       
       Fim da dica.
       
-       \vspace{-1.5ex} \hrulefill \vspace{1ex} 
+       
+              \vspace{-1.5ex} \hrulefill \vspace{1ex} 
       
        Depois da dica.
 
