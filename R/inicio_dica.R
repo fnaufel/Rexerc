@@ -37,7 +37,7 @@ inicio_dica <- function(
   } else if (output == 'latex') {
 
     paste0(
-      '\n    ',
+      '\n     ',
       texto_botao,
       '\\ \\ \\hrulefill \n'
     )

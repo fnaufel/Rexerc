@@ -37,14 +37,14 @@ fim_resposta <- function(
     if (!is.null(url)) {
 
       paste0(
-        '\n    \\end{comment}',
-        '\n    \\end{trivlist}'
+        '\n     \\end{comment}',
+        '\n     \\end{trivlist}'
       )
 
 
     } else {
 
-      '\n    \\end{comment}\n'
+      '\n     \\end{comment}\n'
 
     }
 

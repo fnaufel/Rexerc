@@ -31,7 +31,7 @@ fim_dica <- function(
   } else if (output == 'latex') {
 
     paste0(
-      '\n    ',
+      '\n     ',
       '\\vspace{-1.5ex} \\hrulefill \\vspace{1ex} \n\n'
     )
 

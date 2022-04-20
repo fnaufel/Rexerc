@@ -43,15 +43,15 @@ inicio_resposta <- function(
     if (!is.null(url)) {
 
       paste0(
-        '\n    \\begin{trivlist} \\raggedleft\n',
-        '    \\item[\\bfseries ', texto_botao, ':] ',
+        '\n     \\begin{trivlist} \\raggedleft\n',
+        '     \\item[\\bfseries ', texto_botao, ':] ',
         '\\url{', url, '}',
-        '\n    \\begin{comment}\n'
+        '\n     \\begin{comment}\n'
       )
 
     } else {
 
-      '\n    \\begin{comment}\n'
+      '\n     \\begin{comment}\n'
 
     }
 
